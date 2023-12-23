@@ -1,112 +1,46 @@
 {
   "products": [
     {
-      "name": "computer",
-      "price": "232",
-      "checked": false,
-      "id": 2
-    },
-    {
-      "name": "telephon",
-      "price": "343",
-      "checked": false,
-      "id": 3
-    },
-    {
-      "name": "iphone",
-      "price": "232",
-      "checked": false,
-      "id": 4
-    },
-    {
+      "id": 5,
       "name": "samsung",
-      "price": "343",
-      "checked": false,
-      "id": 5
+      "price": "3473",
+      "checked": true
     },
     {
       "name": "printer",
       "price": "232",
-      "checked": false,
+      "checked": true,
       "id": 6
-    },
-    {
-      "name": "telephon",
-      "price": "343",
-      "checked": false,
-      "id": 7
     },
     {
       "name": "pc",
       "price": "232",
-      "checked": false,
+      "checked": true,
       "id": 8
     },
     {
       "name": "telephon",
       "price": "343",
-      "checked": false,
+      "checked": true,
       "id": 9
     },
     {
-      "name": "pc",
-      "price": "232",
-      "checked": false,
-      "id": 10
-    },
-    {
       "name": "telephon",
       "price": "343",
-      "checked": false,
+      "checked": true,
       "id": 11
     },
     {
-      "name": "pc",
-      "price": "232",
-      "checked": false,
-      "id": 12
-    },
-    {
       "name": "telephon",
       "price": "343",
-      "checked": false,
+      "checked": true,
       "id": 13
     },
     {
       "name": "pc",
       "price": "232",
-      "checked": false,
+      "checked": true,
       "id": 14
-    },
-    {
-      "name": "telephon",
-      "price": "343",
-      "checked": false,
-      "id": 15
-    },
-    {
-      "name": "pc",
-      "price": "232",
-      "checked": false,
-      "id": 16
-    },
-    {
-      "name": "telephon",
-      "price": "343",
-      "checked": true,
-      "id": 17
-    },
-    {
-      "name": "pc",
-      "price": "232",
-      "checked": true,
-      "id": 18
-    },
-    {
-      "name": "telephon",
-      "price": "343",
-      "checked": true,
-      "id": 19
     }
   ]
 }

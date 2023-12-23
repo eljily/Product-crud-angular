@@ -4,6 +4,7 @@ import { ProductService } from '../services/product.service';
 import { Product } from '../model/product.model';
 import { Observable } from 'rxjs';
 import { Router } from '@angular/router';
+import { AppStateService } from '../services/app-state.service';
 
 @Component({
   selector: 'app-products',
@@ -13,17 +14,18 @@ import { Router } from '@angular/router';
 export class ProductsComponent implements OnInit {
   
   constructor(private productService:ProductService,
-    private router : Router){}
+    private router : Router,public appState:AppStateService){}
 
-  products : Array<Product>=[];
+    
+  products : Array<Product>=this.appState.productsState.products;
 
-  public keyword: string ="";
+  public keyword: string =this.appState.productsState.keyword;
 
-  public totalPages :number = 0 ;
+  public totalPages :number = this.appState.productsState.totalPages ;
 
-  public pageSize : number = 4;
+  public pageSize : number = this.appState.productsState.pageSize;
 
-  public currentPage : number = 1;
+  public currentPage : number = this.appState.productsState.currentPage;
 
   ngOnInit(){
     this.searchProducts();
