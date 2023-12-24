@@ -7,6 +7,12 @@ import { AppStateService } from '../services/app-state.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
+
   public constructor(public appSate:AppStateService){}
+
+  totalChecked()  {
+    let checkedProducts = this.appSate.productsState.products.filter((p:any)=>p.checked==true);
+    return checkedProducts.length;
+    }
 
 }

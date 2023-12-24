@@ -1,11 +1,19 @@
 <div class="p-3">
     <div class="card">
         <div class="card-body">
-            <ul class="nav-pills">
+            <ul class="nav nav-pills">
                 <li>
-                    <label>Pages:{{this.appSate.productsState}}</label>
+                    <label class="border border-info bg-info text-white m-1">Pages:{{this.appSate.productsState.pageSize}}</label>
                 </li>
-
+                <li>
+                    <label class="border border-info bg-danger text-white m-1">Size:{{this.appSate.productsState.pageSize}}</label>
+                </li>
+                <li>
+                    <label class="border border-info bg-success text-white m-1">Total:{{this.appSate.productsState.totalProducts}}</label>
+                </li>
+                <li>
+                    <label class="border border-info bg-primary text-white m-1">Checked:{{totalChecked()}}</label>
+                </li>
             </ul>
         </div>
     </div>

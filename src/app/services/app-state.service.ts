@@ -17,6 +17,16 @@ export class AppStateService {
 
   pageSize : 4,
 
-  currentPage : 1
+  currentPage : 1,
+
+  totalProducts : 0,
+
+  status :"",
+
+  errorMessage :""
+  }
+
+  public setProductState(state:any):void{
+    this.productsState ={...this.productsState,...state}
   }
 }
