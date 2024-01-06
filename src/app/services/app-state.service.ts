@@ -29,4 +29,14 @@ export class AppStateService {
   public setProductState(state:any):void{
     this.productsState ={...this.productsState,...state}
   }
+  public authState :any = {
+    isAuthenticated:false,
+    username : undefined,
+    roles : undefined,
+    token : undefined
+}
+
+public setAuthState(state:any){
+  this.authState={...this.authState,...state}
+}
 }

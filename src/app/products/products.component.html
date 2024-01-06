@@ -19,20 +19,22 @@
                         <td>{{product.name}}</td>
                         <td>{{product.price}}</td>
                         <td >
-                            <button 
+                            <button *ngIf="appState.authState.roles.includes('ADMIN')"
                             (click)="handleCheckProduct(product)" 
                             [class]="product.checked?'bi bi-check':'bi bi-circle'" 
                             class="btn btn-outline-success">
                            </button>
                         </td>
                         <td>
-                            <button (click)="handleDeleteProduct(product)"
+                            <button *ngIf="appState.authState.roles.includes('ADMIN')"
+                             (click)="handleDeleteProduct(product)"
                              class="btn btn-outline-danger">
                                 <i class="bi bi-trash"></i>
                             </button>
                         </td>
                         <td>
-                            <button (click)="handleEditProduct(product)"
+                            <button *ngIf="appState.authState.roles.includes('ADMIN')" 
+                            (click)="handleEditProduct(product)"
                              class="btn btn-outline-success">
                                 <i class="bi bi-pen"></i>
                             </button>

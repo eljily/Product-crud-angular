@@ -16,15 +16,12 @@ export class ProductsComponent implements OnInit {
   constructor(private productService:ProductService,
     private router : Router,public appState:AppStateService){}
 
-    
-  
-
   ngOnInit(){
     this.searchProducts();
   }
 
   searchProducts(){
-    this.appState.setProductState({status:"LOADING"})
+   // this.appState.setProductState({status:"LOADING"})
     this.productService.searchProducts(this.appState.productsState.keyword,
       this.appState.productsState.currentPage,
       this.appState.productsState.pageSize)
@@ -80,6 +77,6 @@ export class ProductsComponent implements OnInit {
       }
 
       handleEditProduct(product: Product) {
-        this.router.navigateByUrl("/editProduct/"+product.id);
+        this.router.navigateByUrl("/admin/editProduct/"+product.id);
         }
 }

@@ -1,29 +1,32 @@
 {
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsIm5hbWUiOiJKb2huIERvZSIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNTE2MjM5MDIyfQ.wuGHEqld9MZ-h0pmq24WjIyfN2DkxNZL-ox3_AwjzWc"
+    },
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsIm5hbWUiOiJKb2huIERvZSIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNTE2MjM5MDIyfQ.k_CTewMP92_Thhjkw9iRH0LSasG_zMOOZoFNsW7C4Gs"
+    },
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER",
+        "ADMIN"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsIm5hbWUiOiJKb2huIERvZSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiJdLCJpYXQiOjE1MTYyMzkwMjJ9.Ef0_T50M8MeNrMYllblUUzHw_MMuy468AN5148g2KVY"
+    }
+  ],
   "products": [
-    {
-      "id": 13,
-      "name": "telephon",
-      "price": "343",
-      "checked": true
-    },
-    {
-      "name": "pc",
-      "price": "232",
-      "checked": false,
-      "id": 14
-    },
-    {
-      "name": "printer",
-      "price": "4500",
-      "checked": true,
-      "id": 15
-    },
-    {
-      "name": "A34",
-      "price": "323435",
-      "checked": false,
-      "id": 16
-    },
     {
       "name": "A36",
       "price": 0,
@@ -51,13 +54,13 @@
     {
       "name": "A40",
       "price": 0,
-      "checked": false,
+      "checked": true,
       "id": 21
     },
     {
       "name": "A41",
       "price": 0,
-      "checked": false,
+      "checked": true,
       "id": 22
     },
     {
@@ -93,31 +96,25 @@
     {
       "name": "yt",
       "price": "43",
-      "checked": false,
+      "checked": true,
       "id": 28
     },
     {
       "name": "yt",
       "price": "43",
-      "checked": true,
+      "checked": false,
       "id": 29
-    },
-    {
-      "name": "TEst34",
-      "price": "35",
-      "checked": true,
-      "id": 30
     },
     {
       "name": "dfa",
       "price": "342",
-      "checked": true,
+      "checked": false,
       "id": 31
     },
     {
       "name": "ewr",
       "price": "34",
-      "checked": true,
+      "checked": false,
       "id": 32
     }
   ]
