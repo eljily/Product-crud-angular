@@ -28,30 +28,6 @@
   ],
   "products": [
     {
-      "name": "A36",
-      "price": 0,
-      "checked": false,
-      "id": 17
-    },
-    {
-      "name": "A37",
-      "price": 0,
-      "checked": false,
-      "id": 18
-    },
-    {
-      "name": "A38",
-      "price": 0,
-      "checked": false,
-      "id": 19
-    },
-    {
-      "name": "A39",
-      "price": 0,
-      "checked": false,
-      "id": 20
-    },
-    {
       "name": "A40",
       "price": 0,
       "checked": true,
@@ -98,12 +74,6 @@
       "price": "43",
       "checked": true,
       "id": 28
-    },
-    {
-      "name": "yt",
-      "price": "43",
-      "checked": false,
-      "id": 29
     },
     {
       "name": "dfa",
